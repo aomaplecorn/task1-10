@@ -1,0 +1,100 @@
+* {
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+}
+
+                      /*ここからヘッダー*/
+.header{
+  width:100%;
+  height:50px;
+  background-color:#FF9A4B;
+}
+
+                      /*ここからメイン*/
+.main-visual{
+  width:960px;
+  margin: 50px auto;
+  display:flex;
+  justify-content:center;
+}
+
+.main-box1{
+  width:300px;
+  background-color:#EEEEEE;
+  line-height:center;
+  padding:10px 10px 0 10px;
+  margin-right:30px;
+  position:relative;
+}
+
+.main-box2{
+  width:300px;
+  background-color:#EEEEEE;
+  line-height:center;
+  padding:10px 10px 0 10px;
+  margin-right:30px;
+  position:relative;
+}
+
+.main-box3{
+  width:300px;
+  background-color:#EEEEEE;
+  line-height:center;
+  padding:10px 10px 0 10px;
+  position:relative;
+}
+
+.main-step{
+  width:45px;
+  height:30px;
+  background-color:#FF9A4B;
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+.main-step p { 
+  color:#FFF;
+}
+
+.img1 {
+  background-image: url(img/flow01.png);
+  background-size: cover;
+  background-position: bottom;
+  width:100%;
+  height:150px;
+}
+
+.img2 {
+  background-image: url(img/flow02.png);
+  background-size: cover;
+  background-position: bottom;
+  width:100%;
+  height:150px;
+}
+
+.img3 {
+  background-image: url(img/flow03.png);
+  background-size: cover;
+  background-position: bottom;
+  width:100%;
+  height:150px;
+}
+
+.main-title{
+  width:100%;
+  padding-top:10px;
+}
+
+.main-text{
+  width:100%;
+  padding-top:5px;
+}
+
+                      /*ここからフッター*/
+.footer{
+  width:100%;
+  height:50px;
+  background-color:#AAAAAA;
+}
